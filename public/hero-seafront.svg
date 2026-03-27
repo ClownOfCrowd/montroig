@@ -1,0 +1,13 @@
+<svg width="1920" height="1280" viewBox="0 0 1920 1280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1280" fill="#0F1B2B"/>
+  <rect y="140" width="1920" height="590" fill="url(#sky)"/>
+  <path d="M0 652C241 596 412 571 621 586C819 600 991 664 1197 679C1405 695 1625 652 1920 547V910H0V652Z" fill="#4E7897"/>
+  <path d="M0 760C224 713 442 706 628 718C810 731 1011 788 1193 803C1421 821 1662 780 1920 682V1010H0V760Z" fill="#6A95B2"/>
+  <path d="M0 1000H1920V1280H0V1000Z" fill="#223548"/>
+  <defs>
+    <linearGradient id="sky" x1="960" y1="140" x2="960" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5A7D99"/>
+      <stop offset="1" stop-color="#2E4C63"/>
+    </linearGradient>
+  </defs>
+</svg>
