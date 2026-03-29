@@ -65,6 +65,7 @@ export type SiteText = {
   gallery: {
     kicker: string;
     title: string;
+    cinematicLine: string;
     items: GalleryItem[];
   };
   breaks: {
@@ -255,10 +256,10 @@ export const siteText: Record<LanguageCode, SiteText> = {
     },
     hero: {
       kicker: "Montroig Mediterranean Asset",
-      title: "Boutique seaside investment on the first line of the Mediterranean",
-      subtitle: "Activo singular en primera linea de mar con 5 apartamentos turisticos y mas de 5.600 m2 de terreno.",
-      primaryCta: "Solicitar dossier",
-      secondaryCta: "Calcular rentabilidad",
+      title: "Terreno en primera linea del Mediterraneo con potencial de ingresos",
+      subtitle: "5 unidades de alquiler con licencia sobre 5.600 m2 de propiedad costera privada en Costa Dorada",
+      primaryCta: "Request Investment Brief",
+      secondaryCta: "Explore Opportunity",
     },
     stats: {
       ariaLabel: "Indicadores clave de la propiedad",
@@ -278,6 +279,7 @@ export const siteText: Record<LanguageCode, SiteText> = {
     gallery: {
       kicker: "Visual Portfolio",
       title: "Primera linea, amplitud y atmosfera",
+      cinematicLine: "Una oportunidad unica para controlar una parte significativa de costa mediterranea",
       items: [
         { title: "Primera linea del mar" },
         { title: "Vistas desde la parcela" },
@@ -443,10 +445,10 @@ export const siteText: Record<LanguageCode, SiteText> = {
     },
     hero: {
       kicker: "Montroig Mediterranean Asset",
-      title: "Boutique seaside investment on the first line of the Mediterranean",
-      subtitle: "A frontline coastal asset with 5 licensed units and over 5,600 m2 of land.",
-      primaryCta: "Request dossier",
-      secondaryCta: "Calculate returns",
+      title: "Frontline Mediterranean Land with Income Potential",
+      subtitle: "5 licensed rental units on 5,600 m2 of private coastal property in Costa Dorada",
+      primaryCta: "Request Investment Brief",
+      secondaryCta: "Explore Opportunity",
     },
     stats: {
       ariaLabel: "Property highlights",
@@ -466,6 +468,7 @@ export const siteText: Record<LanguageCode, SiteText> = {
     gallery: {
       kicker: "Visual Portfolio",
       title: "Frontline sea views, scale and atmosphere",
+      cinematicLine: "A rare opportunity to control a significant piece of Mediterranean coastline",
       items: [
         { title: "Mediterranean frontline" },
         { title: "View from the plot" },
@@ -631,10 +634,10 @@ export const siteText: Record<LanguageCode, SiteText> = {
     },
     hero: {
       kicker: "Montroig Mediterranean Asset",
-      title: "Инвестиционный объект на первой линии Средиземного моря",
-      subtitle: "Редкий прибрежный актив: 5 лицензированных апартаментов и более 5 600 м2 земли.",
-      primaryCta: "Запросить досье",
-      secondaryCta: "Рассчитать доходность",
+      title: "Первая линия Средиземного моря с доходным потенциалом",
+      subtitle: "5 лицензированных арендных юнитов на 5 600 м2 частной прибрежной территории Costa Dorada",
+      primaryCta: "Request Investment Brief",
+      secondaryCta: "Explore Opportunity",
     },
     stats: {
       ariaLabel: "Ключевые параметры объекта",
@@ -654,6 +657,7 @@ export const siteText: Record<LanguageCode, SiteText> = {
     gallery: {
       kicker: "Visual Portfolio",
       title: "Первая линия, масштаб и атмосфера",
+      cinematicLine: "Редкая возможность получить контроль над значимым участком средиземноморского побережья",
       items: [
         { title: "Первая линия моря" },
         { title: "Вид с участка" },
