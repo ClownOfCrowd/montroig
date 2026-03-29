@@ -8,8 +8,7 @@ type HeroProps = {
   text: SiteText["hero"];
 };
 
-const HERO_POSTER = "/images/hero-poster.jpg";
-const HERO_VIDEO_WEBM = "/hero-frontline.webm";
+const HERO_POSTER = "/hero-seafront.svg";
 const HERO_VIDEO_MP4 = "/hero-frontline.mp4";
 
 export default function Hero({ onOpenLeadModal, text }: HeroProps) {
@@ -34,7 +33,6 @@ export default function Hero({ onOpenLeadModal, text }: HeroProps) {
           onError={() => setVideoError(true)}
           style={{ filter: "brightness(0.9) blur(0px)" }}
         >
-          <source src={HERO_VIDEO_WEBM} type="video/webm" />
           <source src={HERO_VIDEO_MP4} type="video/mp4" />
         </video>
       ) : null}
